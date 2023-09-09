@@ -1,6 +1,13 @@
 const readlineSync = require('readline-sync')
 const password = 'frutariaamarela'
-const fruits = [[1, 'Abacaxi', 4.99], [2, 'Amendoin', 11.99], [3, 'Tomate', 3.99], [4, 'Batata Escovada', 1.79], [5, 'Laranja', 2.49], [6, 'Morango Bandeja', 2.99]]
+const fruits = [
+    [1, 'Abacaxi', 4.99],
+    [2, 'Amendoin', 11.99],
+    [3, 'Tomate', 3.99],
+    [4, 'Batata Escovada', 1.79],
+    [5, 'Laranja', 2.49],
+    [6, 'Morango Bandeja', 2.99]
+]
 
 let app = true
 let list  = []
